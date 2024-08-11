@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="imagens/logotipo.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="style.css">
+        <title>Site Senai</title>
+    </head>
+    <body>
+        <header>
+            <img src="imagens/logotipo.png" alt="Logotipo da página" width="100" height="100" class="logotipo">
+
+            <nav class="navBar">
+                <span class="material-icons" id="iconMenu" onclick="MenuDrop()">menu</span>
+
+                <span class="material-icons" id="iconClosed" onclick="MenuClosed()">close</span>
+
+                <ul class="links" id="links">
+                    <li><a href="#" target="_self">About-me</a></li>
+                    <li><a href="#" target="_self">Cursos</a></li>
+                    <li><a href="#" target="_blank">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+    <script src="menuDrop.js" defer></script>
+
+</html>
